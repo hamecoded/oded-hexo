@@ -12,8 +12,10 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://hamecoded.github.io
-root: /oded-hexo/
+xurl: https://hamecoded.github.io
+xroot: /oded-hexo/
+url: https://oded.me
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -62,6 +64,9 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+Plugins:
+  - hexo-generator-cname
+
 ## Themes: https://hexo.io/themes/
 theme: landscape
 
