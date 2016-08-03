@@ -9,6 +9,10 @@ hexo new post "Title for post"
 hexo generate
 hexo deploy
 ```
+viewing your post locally
+```bash
+hexo server
+```
 
 *note that regardless of the hexo flow you need to push changes to your github repo.
 
