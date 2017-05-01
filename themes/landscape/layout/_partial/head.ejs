@@ -1,5 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html
+
+lang="<%
+  var language= page.language; 
+  if(language !== ''){
+   %><%=language%><%}%>">
+
 <head>
   <meta charset="utf-8">
   <%

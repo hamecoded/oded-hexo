@@ -6,13 +6,19 @@ My all things web dev blog powered by Hexo
 
 ```bash
 hexo new post "Title for post"
-hexo generate
-hexo deploy
 ```
 viewing your post locally
 ```bash
 hexo server
 ```
+
+To deploy to Github run
+```bash
+hexo generate
+hexo deploy
+```
+
+Incase the post is in Hebrew add to the `source/_posts/your-post.md` meta headers `language: he`.
 
 *note that regardless of the hexo flow you need to push changes to your github repo.
 
@@ -20,7 +26,7 @@ hexo server
 ### Troubleshooting
 
 ## re-setup
-First make sure you have a working system environment.
+First make sure you have a working system environment(see later).
 Here is a working configuration using node v6 and npm v3
 ```bash
 $hexo -v
@@ -57,4 +63,6 @@ or maybe just reinstall hexo
 ```bash
 npm install hexo --no-optional --save
 ```
+## a working system environment
 
+you'll need npm (node v6 lts) and hexo-cli `npm install -g hexo-cli`
