@@ -127,6 +127,10 @@ body {
   font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-text-size-adjust: 100%;
 }
+html[lang="ar"],
+html[lang="he"] {
+  direction: rtl;
+}
 .outer {
   max-width: 1220px;
   margin: 0 auto;
