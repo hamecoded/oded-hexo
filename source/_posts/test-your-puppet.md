@@ -1,7 +1,9 @@
 ---
 title: Test your puppet
 date: 2016-08-03 17:00:24
-tags: puppet devop
+tags: 
+ - puppet
+ - devops
 ---
 
 

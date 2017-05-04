@@ -8,8 +8,8 @@ subtitle:
 description:
 author: Oded Sagir
 language:
-  en
-  he
+  - en
+  - he
 timezone:
 
 # URL
