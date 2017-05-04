@@ -3,14 +3,14 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Oded Web Development Blog
-subtitle:
+title: הבלוג של עודד | Oded's Blog
+subtitle: Coding and Life
 description:
 author: Oded Sagir
 language:
   - en
   - he
-timezone:
+timezone: Asia/Jerusalem
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
