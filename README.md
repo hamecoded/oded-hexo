@@ -7,6 +7,14 @@ My all things web dev blog powered by Hexo
 ```bash
 hexo new post "Title for post"
 ```
+
+or using hexo admin
+
+```bash
+hexo server -d
+open http://localhost:4000/admin/
+```
+
 viewing your post locally
 ```bash
 hexo server
