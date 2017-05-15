@@ -23,7 +23,7 @@ hexo server
 To deploy to Github run
 ```bash
 hexo generate
-hexo deploy
+hexo deploy #generates the gh-pages on GitHub
 ```
 
 Incase the post is in Hebrew add to the `source/_posts/your-post.md` meta headers `language: he`.
@@ -38,18 +38,18 @@ First make sure you have a working system environment(see later).
 Here is a working configuration using node v6 and npm v3
 ```bash
 $hexo -v
-	hexo: 3.2.2
+	hexo: 3.3.5
 	hexo-cli: 1.0.2
-	os: Darwin 14.5.0 darwin x64
+	os: Darwin 16.5.0 darwin x64
 	http_parser: 2.7.0
-	node: 6.3.1
-	v8: 5.0.71.57
+	node: 6.10.2
+	v8: 5.1.281.98
 	uv: 1.9.1
-	zlib: 1.2.8
+	zlib: 1.2.11
 	ares: 1.10.1-DEV
-	icu: 57.1
+	icu: 58.2
 	modules: 48
-	openssl: 1.0.2h
+	openssl: 1.0.2k
 
 	npm: 3.10.3
 ```
@@ -71,6 +71,12 @@ or maybe just reinstall hexo
 ```bash
 npm install hexo --no-optional --save
 ```
+
 ## a working system environment
 
 you'll need npm (node v6 lts) and hexo-cli `npm install -g hexo-cli`
+
+## cherry picking a commit onto another branch
+on the branch you wish the commit would be added execute `git cherry-pick f3d8d47`
+
+
