@@ -20,10 +20,20 @@ viewing your post locally
 hexo server
 ```
 
-To deploy to Github run
+To deploy to Github Pages run
 ```bash
-hexo generate
-hexo deploy #generates the gh-pages on GitHub
+hexo generate # generates the public dir from the branch you are on
+hexo deploy # pushes to gh-pages branch on GitHub the public dir you've just generated
+```
+
+To commit source code to Github master branch run
+```bash
+git push origin master
+```
+
+To commit source code to Bitbucket bitbucket branch run
+```bash
+git push bitbucket bitbucket
 ```
 
 Incase the post is in Hebrew add to the `source/_posts/your-post.md` meta headers `language: he`.
