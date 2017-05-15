@@ -131,6 +131,10 @@ html[lang="ar"],
 html[lang="he"] {
   direction: rtl;
 }
+.article:nth-child(n+2) .article-entry {
+  max-height: 240px;
+  overflow-y: hidden;
+}
 .outer {
   max-width: 1220px;
   margin: 0 auto;
