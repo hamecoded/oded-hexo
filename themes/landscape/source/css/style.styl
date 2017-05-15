@@ -32,8 +32,13 @@ body
 
 html[lang="ar"],
 html[lang="he"]
-    direction: rtl
+  direction: rtl
     
+// collapse height of posts exceeding first item   
+.article:nth-child(n+2) .article-entry 
+  max-height: 240px;
+  overflow-y: hidden;
+   
 .outer
   clearfix()
   max-width: (column-width + gutter-width) * columns + gutter-width
